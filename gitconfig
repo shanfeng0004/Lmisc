@@ -1,0 +1,19 @@
+[user]
+	name = shanfeng0004
+	email = 278419352@qq.com
+[core]
+	compression = 0
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	d = diff --color
+	tr = checkout --track
+	s = status --short
+	dc = diff --color --cached
+	d0 = diff --color --unified=0
+	l = log --color --graph --decorate --pretty=oneline --abbrev-commit
+	l0 = log --color --graph --decorate --pretty=oneline --abbrev-commit -U0
+	la = log --color --graph --decorate --pretty=oneline --abbrev-commit --all
+	lb = log --color --graph --decorate --pretty=oneline --abbrev-commit --all --simplify-by-decoration
+	lg = log --color --graph --decorate
