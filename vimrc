@@ -40,7 +40,7 @@ map <F4> :call TitleDet()<cr>'s
 function AddTitle()
     call append(0,"/*******************************************************************************")
     call append(1,"*")
-    call append(2,"* Author: qihuifeng@360.cn")
+    call append(2,"* Author: qihuifeng")
     call append(3,"*")
     call append(4,"* QQ : 327775604")
     call append(5,"*")
