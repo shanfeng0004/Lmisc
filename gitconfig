@@ -17,3 +17,4 @@
 	la = log --color --graph --decorate --pretty=oneline --abbrev-commit --all
 	lb = log --color --graph --decorate --pretty=oneline --abbrev-commit --all --simplify-by-decoration
 	lg = log --color --graph --decorate
+	hist = log --color --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
