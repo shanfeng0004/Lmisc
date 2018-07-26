@@ -30,7 +30,7 @@ set cursorline
 "change comment color
 hi Comment ctermfg = DarkGrey
 
-autocmd FileType php noremap <C-L> :!/home/xiaoju/php/bin/php -ln %<CR>
+autocmd FileType php noremap <C-L> :!php/bin/php -ln %<CR>
 
 "taglist
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
